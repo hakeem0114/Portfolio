@@ -11,57 +11,8 @@
     padding: 0;
 
     /*Custom Colors*/
-    --hue:0;
-    --sat:0%;
-    --titleColor: hsl(var(--hue), var(--sat), 20%);
-    --titleColorDark: hsl(var(--hue), var(--sat), 0%);
-    --textColor: hsl(var(--hue), var(--sat), 46%);
-    --bodyColor: hsl(var(--hue), var(--sat), 98%);
-    --containerColor: rgb(241, 233, 233);
-
-}
-
-/*Mobile*/
-@media screen and (max-width: 992px) {
- *{
-    --bigFontSize: 2rem;
-    --normalFontSize: 1rem;
-    --smallFontSize: .7rem;
- }
-
-}
-
-/***********************Base Components********************/
-body{
-    background-color: var(--bodyColor);
-    color: var(--textColor);
-}
-
-h1,h2,h3{
-    color: var(--titleColor);
-    font-weight: var(--normalFontSize); 
-}
-
-a{
-    text-decoration: none;
-}
-
-ul{
-    list-style: none;
-}
 
 
- 
-/************************Contents********************/
-
-
-/************************Buttons********************/
-button{
-    border: none;
-    outline: none;
-}
-button:hover{
-    transform: scale(1.03);
 }
 
 
