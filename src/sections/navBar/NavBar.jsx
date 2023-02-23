@@ -9,22 +9,18 @@ import './NavBar.css'
 function NavBar() {
 
   return (
-    <nav className="container navBar"> 
-        <h1>NavBar1</h1>
+    <nav className=" navBar"> 
         <ul className='navMenu'>
             {
               navData.map((item)=>
-                  <li>
-                    <h3>Test</h3>
-                    key = {item.id} {/* Id based bahavior to recognize rendered elements better. Fixes the key is needed notification issue*/}
+                  <li key={item.id} >
+                    
                     <a href={item.link}> {item.title} </a>
 
                   </li>
               )
             }
         </ul>
-
-        <button></button>
     </nav>
   )
 }

@@ -1,7 +1,48 @@
-.navMenu > li > a{
-    color: blue;
+
+nav{
+    height: 4.5rem;
+    width: 100%;
+
+    /*Box*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Color*/
+    background-color:var(--navPurple); /* Change later to cyperpunk neon themed*/
+   
+    /* Positions*/
+    position: fixed;
+    z-index: 10; /*Highest index to always be on top*/
+    box-shadow: 0 8px 6px -6px #999;
 }
 
-.navBar{
-    background-color: aquamarine;
+.navMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navMenu > li > a{
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.navMenu > li{
+    margin: 0 5rem;
+
+}
+
+.navMenu > li:hover{
+         transform: scale(1.04);
+         box-shadow: 0 2px 3px -3px #d4ee5e;
+}
+
+/*Hide Desktop Nav for mobile & large smartphones*/
+@media screen and (max-width: 1024px ){
+    .navMenu{
+        display: none;
+    }
 }

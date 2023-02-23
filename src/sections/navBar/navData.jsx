@@ -24,6 +24,4 @@ const navData = [
 
 ]
 
-export{
-    navData
-}
+export default navData;

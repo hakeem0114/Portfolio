@@ -3,6 +3,12 @@
 
 :root{
       /* Main custom css color properties*/
+    
+      /*Nav*/
+      --navPurple: #bd00ff;
+
+
+
     --primary-hue: 270;
     --black-lightness: 15%;
     --dark-lightness: 44%;
@@ -34,6 +40,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 body{
@@ -41,9 +48,10 @@ body{
 
   font-family: 'Lato', sans-serif;
   font-size: 0.8rem;
+  
 }
 
-.container{
+.container{ /*For each section: Add to each later to make page more responsive depending on screen*/
   width: var(--container-width-lg);
    /*margin-inline: auto; */ /*Centre's margin around x-axis*/
   max-width: 1920px; /*For 1920px monitors*/
@@ -72,7 +80,12 @@ section > p{
 
 a{
  /* color: rgb(2, 2, 2); */
-  transition: var(--transition);
+  transition: var(--transition);  
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
 }
 
 h1{
