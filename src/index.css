@@ -71,7 +71,7 @@ section > p{
 }
 
 a{
-  color: var(--color-white);
+ /* color: rgb(2, 2, 2); */
   transition: var(--transition);
 }
 
