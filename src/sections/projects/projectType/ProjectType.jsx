@@ -5,7 +5,7 @@ function ProjectType(props){
 
         // Logic to make a div active onClick if the above statement is truethy
         <li className=
-                {props.active ? "projectList active": "projectList"}       
+                {props.active ? "ProjectType active": "ProjectType"}       
                             
                 onClick={()=> props.setSelected(props.option.type)}
 

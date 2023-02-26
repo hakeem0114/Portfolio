@@ -1,3 +1,4 @@
+//React library & hooks
 import {React, useState, useEffect} from 'react'
 
 //Custom Components
@@ -7,21 +8,25 @@ import {  ProjectType} from "./projectType/ProjectType";
 //Css
 import './Projects.css'
 
-//cardData
-import { cardData } from "./cardData";
+//Card Data
+import { 
+          allData, 
+          webData,
+          mechData
+      } from "./cardData";
+
+//Project Type Data
 import { projectTypeData } from "./projectType/projectTypeData";
 
-//Filtered Data
-import {mechData} from "./mechData";
-import {webData} from "./webData";
+
 
 function Projects() {
 
     // To use the option.type string to filter out the projects,
   // the useState hook is needed to keep track
 
-  const [selected, setSelected] = useState("all");  
-  const [projectCard, selectedCard] = useState([]);
+  const [selected, setSelected] = useState("web");  
+  const [cardData, setCardData] = useState([]);
 
 
   useEffect(()=>{
@@ -29,15 +34,15 @@ function Projects() {
     // Switch statement has a better O(n) that if else
       switch (selected) {
         case "all":
-          selectedCard(cardData)
+          setCardData(allData)
           break;
       
           case "web":
-            selectedCard(webData)
+            setCardData(webData)
           break;
 
           case "mech":
-            selectedCard(mechData)
+            setCardData(mechData)
           break;
       }
       
