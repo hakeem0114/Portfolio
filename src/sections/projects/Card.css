@@ -1,6 +1,15 @@
+.card > img{
+    width: 70px;
+}
 
+.card{
+    display: grid;
+}
 
-
+.cardButton{
+    width: 10px;
+    height: 20px;
+}
 
 /***Tables & Apple Pro**/
 @media screen and (max-width: 1024px ){

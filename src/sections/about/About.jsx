@@ -1,7 +1,11 @@
-import React from 'react'
+import {React, useEffect } from 'react'
+
+//Css icons
 import { AiFillFilePdf } from "react-icons/ai";
 
+//Css
 import './About.css'
+
 
 function About() {
 

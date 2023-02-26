@@ -11,4 +11,31 @@ useEffect(()=>{
 
 })
 
+Add a lock around a card if not completed ::: IF inProgress && <div class="inProgress"
+
 */
+
+import React from 'react'
+
+import './Card.css'
+
+function Card(props) {
+
+    return (
+      <div className="card"> 
+          <h3>{props.item.title}</h3>
+          <img src={props.item.image} alt="Image for project" />
+          <p>{props.item.description}</p>
+
+          <div className="cardBottom">
+                {props.item.js && <button className= "cardButton">JS</button> }
+                
+          </div>
+     
+      </div>
+    )
+  }
+  
+  export{
+    Card
+  }

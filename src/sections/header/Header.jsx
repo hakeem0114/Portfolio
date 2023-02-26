@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect, useRef } from 'react' /* useRef works like querySelector*/
 
 //Data
 import headerData from './headerData'
@@ -7,7 +8,26 @@ import headerData from './headerData'
 import './Header.css'
 import '../../../src/index.css'
 
+//Animation Css
+import { init } from 'ityped'
+
+
 function Header() {
+
+    // console.log(myName);  To use ityped, call myName.current 
+  const myName = useRef();
+  useEffect(()=>{
+    init(myName.current , 
+          { 
+              showCursor: false,
+              backDelay: 2000,
+              backSpeed: 40,
+              loop: false,
+            strings: ['Hakeem Abdul-Razak']
+          }
+      )
+    
+  },[])
 
   return (
     <header  className=" header">
@@ -25,7 +45,7 @@ function Header() {
           </div>
           
           <div className="headerRight">
-              <h2>Hakeem Abdul-Razak</h2>
+              <h2  ref={myName} ></h2>
               <p>Hello there! I am a web developer & mechatronics engineer. <br/> My goal is to learn, understand, create & lead projects in my career.</p>
               
               <div className="headerLinks">
