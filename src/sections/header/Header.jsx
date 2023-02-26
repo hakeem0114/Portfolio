@@ -5,6 +5,7 @@ import headerData from './headerData'
 
 //Css
 import './Header.css'
+import '../../../src/index.css'
 
 function Header() {
 
@@ -28,8 +29,8 @@ function Header() {
               <p>Hello there! I am a web developer & mechatronics engineer. <br/> My goal is to learn, understand, create & lead projects in my career.</p>
               
               <div className="headerLinks">
-                  <button><a href="#contact">To Reach Me</a></button>  
-                  <button><a href="#projects">My Projects</a></button>
+                  <button ><a  href="#contact">To Reach Me</a></button>  
+                  <button><a  href="#projects">My Projects</a></button>
               </div>
           </div>
       

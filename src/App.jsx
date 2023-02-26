@@ -9,6 +9,7 @@ import { Projects } from "./sections/projects/Projects";
 import { Contact } from "./sections/contact/Contact";
 import { Footer } from "./sections/footer/Footer";
 import { FloatingNav } from "./sections/floatingNav/FloatingNav";
+import { Skills } from "./sections/skills/Skills";
 
 
 //Css
@@ -23,6 +24,7 @@ function App() {
         <Header />
         <About />
         <Projects/>
+        <Skills/>
         <Contact/>
         <Footer/>
         <FloatingNav/>

@@ -45,6 +45,7 @@
 
 
 .headerRight{
+    margin-right: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,12 +64,43 @@
     font-size: 4rem;
 }
 
+.headerLinks{
+    display: flex;
+    gap: 1rem;
+}
 
 .headerLinks > button > a{
     color: var(--whiteFont);
 }
 
 .headerLinks > button{
+    display: inline-block;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+
+    background-color: rgb(156, 202, 187);
+    color: var(--whiteFont);
+
+    padding: .7rem 2.7rem;
+    border: 4px transparent;
+    border-radius: var(--border-radious-2);    
+}
+
+.headerLinks >button:hover{
+  border-color: var(--color-light);
+  transform: scale(1.04) translateY(-0.21rem);
+
+}
+/* .headerLinks > button{   
+        
+} */
+
+/* .headerLinks > button{
+
+
     margin: 3rem 2rem;
 
     
@@ -85,28 +117,77 @@
             filter: drop-shadow(0 0 15px #53354b) drop-shadow(0 0 50px #db3eb1) contrast(2) brightness(2);
             transition: .5s;
         
-}
+} */
 
-.headerLinks >button:hover{
+/* .headerLinks >button:hover{
               
         color: black;
         background-color: #db3eb1;
         filter: drop-shadow(0 0 20px #db3eb1) contrast(2) brightness(2);
 
       
-}
+} */
 
 /***Tables & Apple Pro**/
 @media screen and (max-width: 1024px ){
     .header{
         height: 100vh;
+        margin-top: 0;
     }
+
+    .headerRight> p{
+        font-size: 1.2rem;
+        margin: 0;
+        
+    }
+    
+    
+    .headerRight> h2{
+        font-size: 3.5rem;
+        margin-top: 4rem;
+    }
+    .headerLinks{
+        gap: 2rem;
+        margin-bottom: 7rem;
+    }
+
 }
 
 /***Mobile: iPhone**/
 @media screen and (max-width: 600px ){
     .header{
-        height: 100vh;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        gap: 0;
     }
+    .headerIcons{
+        display: none; /*Will in footer on mobile*/
+    }
+    .headerRight{
+        width: 80%; 
+        margin: 1rem 0;
+        gap: 0;
+    }
+
+    .headerRight> p{
+        font-size: .8rem;
+        margin: 0;
+        
+    }
+    
+    
+    .headerRight> h2{
+        margin-top: .5rem;
+        font-size: 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .headerLinks > button{
+        margin-top: .4rem;
+        padding: .2rem .1rem;
+
+    }
+       
 }
 

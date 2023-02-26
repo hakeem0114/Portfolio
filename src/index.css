@@ -44,6 +44,7 @@
   
 }
 
+
 body{
   list-style: none;
 
@@ -65,7 +66,7 @@ section{
   transition: var(--transition);
 }
 
-.about, .contact{
+.about, .skills{
   background: var(--color-white);
 }
 
@@ -114,10 +115,27 @@ img{
   width: 100%;
 }
 
+button{
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+
+  background-color: rgb(156, 202, 187);
+  color: var(--whiteFont);
+
+  padding: .7rem 2.7rem;
+  border: 4px transparent;
+  border-radius: var(--border-radious-2);    
+}
+
+/* 
 .button{
-    display: inline-block;
+    display: inline-block; */
 /*width = fit-content*/
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     gap: .8rem;
@@ -127,15 +145,15 @@ img{
 
     padding: .7rem 2.7rem;
     border: 4px transparent;
-    border-radius: var(--border-radious-2);    
-}
+    border-radius: var(--border-radius-2);     */
+/* } */
 
-.button:hover{
+/* .button:hover{
   background-color: transparent;
   border-color: var(--color-light);
   transform: scale(1.04) translateY(-0.21rem);
 
-}
+} */
 
 /*********************SMARTPHONES**********************/
 
