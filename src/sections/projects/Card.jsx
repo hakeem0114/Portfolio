@@ -23,14 +23,14 @@ function Card(props) {
 
     return (
       <div className="card"> 
-          <h3>{props.item.title}</h3>
-          <img src={props.item.image} alt="Image for project" />
-          <p>{props.item.description}</p>
 
+          <img src={props.item.image} alt="Image for project" />
+          <h3>{props.item.title}</h3>
+          {/* 
+          <p>{props.item.description}</p>
           <div className="cardBottom">
-                {props.item.js && <button className= "cardButton">JS</button> }
-                
-          </div>
+                {props.item.js && <button className= "cardButton">JS</button> }       
+          </div> */}
      
       </div>
     )

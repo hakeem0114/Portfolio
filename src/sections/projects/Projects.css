@@ -1,5 +1,47 @@
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    gap: 1rem;
+}
+
+.projects > h1{
+    margin-top: -5rem;
+    font-size: 50px;
+}
+
+.projects > ul{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    gap: 1rem;
+}
+.projects > ul > li{
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    
+}
+.projects > ul> li:hover , .active{
+    background-color: #8b5cf6;
+    border-radius: 10px;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.cardBox{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
 
 
 /***Tables & Apple Pro**/
