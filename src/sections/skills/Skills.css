@@ -1,22 +1,73 @@
-.about{
+
+.skills{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    gap: 3rem;
-    box-shadow: 9px 9px 30px rgba(170, 128, 175, 0.3);
+    box-shadow: 0px 9px 30px #bc75c7;
 }
 
-.about2{
+.skills > h1{
+    font-size: 50px;
+}
+
+.skillsSection{
+    font-size: 18px;
+    font-weight: bold;
+
+
+    display: grid;
+    text-align:  center;
+    grid-template-columns: 50% 50%;
+
+
+}
+
+.lang, .tech{
+
+    border-radius: 20px;
+    border-left: 2px solid #504180;
+    border-right: 2px solid #504180;
+
+
+    width: 80%;
+    margin:auto;
+    flex-wrap: wrap; /*Multiple entries do not overflow*/
+}
+
+/* .lang > h2{
+    font-size: 30px;
+} */
+
+/* .lang > ul{
+    gap: 2rem;
+} */
+.lang2, .tech2{
+    margin-top: 2rem;
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(5,2fr);
+
+}
+
+.lang2>li , .tech2>li{
+    width: 8rem;
+    height: 6rem;
+    /* background-color: rgb(214, 214, 214); */
+    list-style: none;
+    border-radius: 8px;
+    margin: 0px 1rem 1rem 0px;
+    padding: 1rem ;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+}
+.lang2>li > img , .tech2>li> img{
+    width: inherit;
+    height: 5rem;
 }
 
-.about2 > p{
-    width: 50%;
-    font-size: 1.5rem;
-    text-align: center;
+.lang2 > li:hover, .tech2 > li:hover{
+    transform: scale(1.05);
 }

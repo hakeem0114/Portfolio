@@ -39,10 +39,11 @@
 
 }
 
-.card:hover > img{  
-
-    opacity: .9;
-    z-index: 0; /*h3 Title now shows*/
+.card:hover{  
+    transform: scale(1.02)  1s ease;
+    border-style: solid;
+    border: 2px solid #7a718a;
+    box-shadow: inset 0 0 35px 5px rgba(105, 57, 128, 0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(25, 14, 65, 0.25);
 }
 
 /* .card:hover{  
