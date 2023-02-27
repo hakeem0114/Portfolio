@@ -25,7 +25,44 @@ function Card(props) {
       <div className="card"> 
           <h3>{props.item.title}</h3>
           <img src={props.item.image} alt="Image for project" />
-          <h3>{props.item.title}</h3>
+          <div className="cardButtons">
+              <ul>
+                 <li>{props.item.js && <p className= "cardButton">JS</p> } </li>
+                 <li>{props.item.html && <p className= "cardButton">HTML</p> } </li>
+                 <li>{props.item.css && <p className= "cardButton">CSS</p> } </li>
+                <li>{props.item.react && <p className= "cardButton">REACT</p> }</li>
+                
+                
+              </ul>
+          
+          </div> 
+          <div className="cardDemos">
+              <ul>
+
+                  <li>
+                        {props.item.github && <div className= "gitImage"></div>}
+
+                        {/* {props.item.gitImage}    */}                   
+                        
+                         <a  target="_blank"  href={props.item.github}>
+                             <img src={props.item.gitIcon} alt="git icon" /> 
+                         </a>                    
+                  
+                  </li>
+
+
+                  <li>
+                         {props.item.demo && <div className= "cardDemo"></div> }
+                         {/* {props.item.demoImage} */}
+                         <a target="_blank" href={props.item.demo}>
+                            <img    src={props.item.demoIcon} alt="demo icon" />
+                         </a>
+
+                    </li>   
+
+              </ul>         
+          </div> 
+
           {/* 
           <p>{props.item.description}</p>
           <div className="cardBottom">

@@ -16,7 +16,7 @@
 
 
     display: grid;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 10% 70% 10% 10%;
     
 }
 
@@ -24,7 +24,11 @@
     /* position: absolute; Parent should be relative */
     width: 100%;
 
-    font-size: 30px;
+    background-color: #bdb4c0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    font-size: 25px;
     font-weight: bolder;
 
     text-align: center;
@@ -41,6 +45,7 @@
 
 .card:hover{  
     transform: scale(1.02)  1s ease;
+    transition: border .2s ease-in;
     border-style: solid;
     border: 2px solid #7a718a;
     box-shadow: inset 0 0 35px 5px rgba(105, 57, 128, 0.25), inset 0 2px 1px 1px rgba(255,255,255,0.9), inset 0 -2px 1px rgba(25, 14, 65, 0.25);
@@ -51,12 +56,75 @@
 
 } */
 
+.cardButtons{
+    background-color: #bdb4c0;
 
 
-/* .cardButton{
-    width: 10px;
-    height: 20px;
-} */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+   
+}
+
+.cardButtons > ul{
+    display: flex;
+    
+    gap: 1rem;
+}
+
+.cardButtons > ul > li{
+    
+   color: #ffff;
+   font-size: 15px;
+   font-weight: bold;
+   box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.1);
+    /* box-shadow: 0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09);
+ }  */
+}
+
+.cardButtons > ul > li:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+
+.cardDemos{
+    background-color: #bdb4c0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%; 
+}
+ 
+.cardDemos > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cardDemos > ul> li>a>img{
+    width: 25px;
+}
+
+
+.cardDemos > ul > li:hover{
+    transform: scale(1.1);
+
+    border-radius: 50%;
+    background-color: #8e41a5;
+    transition: 0.2s ease;
+}
 
 
 /***Tables & Apple Pro**/

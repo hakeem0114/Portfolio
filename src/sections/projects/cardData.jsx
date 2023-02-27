@@ -1,5 +1,6 @@
 //Projects Main Card Data
 import {AiFillGithub} from "react-icons/ai";
+import { MdOutlineVideoLabel } from "react-icons/md";
 
 const allData = [
     {
@@ -16,6 +17,10 @@ const allData = [
         react:  <AiFillGithub/>,
         css:  <AiFillGithub/>,
         type: "web",
+        gitImage: <AiFillGithub/>,
+        demoImage: <MdOutlineVideoLabel/>,
+        gitIcon: "https://img.icons8.com/ios-filled/256/github.png",
+        demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
 
     },
     {
@@ -28,6 +33,8 @@ const allData = [
         inProgress:"0",
         html: <AiFillGithub/>,
         type: "web",
+        gitImage: <AiFillGithub/>,
+        demoImage: <MdOutlineVideoLabel/>,
     },
     {
         id:3,
@@ -42,6 +49,8 @@ const allData = [
         react:  <AiFillGithub/>,
         css:  <AiFillGithub/>,   
         type: "web",    
+        gitImage: <AiFillGithub/>,
+        demoImage: <MdOutlineVideoLabel/>,
 
     },
     {
@@ -56,7 +65,9 @@ const allData = [
         js: <AiFillGithub/>,
         react:  <AiFillGithub/>,
         css:  <AiFillGithub/>,  
-        type: "web",      
+        type: "web",   
+        gitImage: <AiFillGithub/>,
+        demoImage: <MdOutlineVideoLabel/>,   
 
     },
 
@@ -71,9 +82,12 @@ const allData = [
         html: <AiFillGithub/>,
         js: <AiFillGithub/>,
         react:  <AiFillGithub/>,
-        css:  <AiFillGithub/>,    
+        css:  <AiFillGithub/>,  
+        arudino: <AiFillGithub/>,
+        C: <AiFillGithub/>,  
         type: "mech",   
-
+        gitImage: <AiFillGithub/>,
+        demoImage: <MdOutlineVideoLabel/>,
     },
 
 ]
