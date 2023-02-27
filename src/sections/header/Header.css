@@ -1,5 +1,5 @@
 .header{
-    transition: var(--transition);
+    transition: all 525ms ease;
     
     height: 100vh;
 
@@ -38,7 +38,7 @@
 }
 
 .headerIcons > li > a:hover{
-    color: #e2df20;
+    color: #9333b9;
  
 
 }
@@ -73,7 +73,7 @@
     color: var(--whiteFont);
 }
 
-.headerLinks > button{
+/* .headerLinks > button{
     display: inline-block;
     width: fit-content;
     display: flex;
@@ -81,16 +81,15 @@
     align-items: center;
     gap: .8rem;
 
-    background-color: rgb(156, 202, 187);
     color: var(--whiteFont);
 
     padding: .7rem 2.7rem;
     border: 4px transparent;
     border-radius: var(--border-radious-2);    
-}
+} */
 
 .headerLinks >button:hover{
-  border-color: var(--color-light);
+  /* border-color: var(--color-light); */
   transform: scale(1.04) translateY(-0.21rem);
 
 }

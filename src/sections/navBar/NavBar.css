@@ -38,11 +38,10 @@ nav{
 .navMenu > li:hover{
          transform: scale(1.04);
          box-shadow: 0 2px 3px -3px #d4ee5e;
+         border-bottom: 2px solid rgb(42, 24, 59);
 }
 
 /*Hide Desktop Nav for mobile & large smartphones*/
 @media screen and (max-width: 1024px ){
-    .navMenu{
-        display: none;
-    }
+ 
 }

@@ -50,9 +50,10 @@
 
 .contact > form > button{
     width: 150px;
-    height: 30px;
+    height: 50px;
     color: white;
     
+    text-align: center;
 }
 
 .contact > form > input, textarea{

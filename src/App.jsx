@@ -8,7 +8,6 @@ import { About } from "./sections/about/About";
 import { Projects } from "./sections/projects/Projects";
 import { Contact } from "./sections/contact/Contact";
 import { Footer } from "./sections/footer/Footer";
-import { FloatingNav } from "./sections/floatingNav/FloatingNav";
 import { Skills } from "./sections/skills/Skills";
 
 

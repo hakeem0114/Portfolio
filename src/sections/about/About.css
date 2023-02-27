@@ -21,6 +21,19 @@
     text-align: center;
 }
 
+.about2 > button{
+    padding: 1.5rem;
+    
+    filter: none;
+}
+
+
+.about2 > button:hover{
+    padding: 1.5rem;
+    
+    background-color: rgb(176, 95, 184);
+}
+
 /***Tables & Apple Pro**/
 @media screen and (max-width: 1024px ){
     .about{
