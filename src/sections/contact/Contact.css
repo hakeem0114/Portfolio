@@ -1,0 +1,73 @@
+.contact{
+
+    background-image: url(https://img.freepik.com/free-vector/combination-circuit-head-shape-artificial-intelligence-moral-electronic-world-illustration_456031-123.jpg?w=1380&t=st=1677456368~exp=1677456968~hmac=39be33a0d0cf119a844ccdd7946451a96b0f16739e45d64d5e39a07b5d210fbb);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: #ffff;
+    box-shadow: 9px 9px 30px rgba(170, 128, 175, 0.3);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .contact > h2, .contact > h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+} */
+
+.contact > form{
+    width: 70%;
+    height: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+
+    margin-top: 1rem    ;
+    gap: 1rem;
+
+}
+
+.contact > form > input{
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+}
+.contact > form > textarea{
+    width: 400px;
+    height: 80px;
+    font-size: 14px;
+}
+
+.contact > form > button{
+    width: 150px;
+    height: 30px;
+    color: white;
+    
+}
+
+.contact > form > input, textarea{
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+.contact > form > input:focus, textarea:focus{
+    border: none;
+    outline: none;
+    border: 4px solid rgb(136, 43, 155);
+    border-radius: 20px;
+}
+
+.contact > span{
+    color: red;
+}

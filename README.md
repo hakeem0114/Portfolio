@@ -9,3 +9,5 @@ freepik.com/
 
 https://www.npmjs.com/package/ityped
 https://icons8.com/
+
+emailjs.com

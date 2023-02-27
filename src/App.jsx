@@ -27,7 +27,6 @@ function App() {
         <Skills/>
         <Contact/>
         <Footer/>
-        <FloatingNav/>
     </div>
   )
 }
