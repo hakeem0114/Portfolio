@@ -3,7 +3,7 @@
 const navData = [
     {
         id:1,
-        link: "#",
+        link: "#header",
         title: "Home"
     },
     {

@@ -11,6 +11,7 @@ import { Footer } from "./sections/footer/Footer";
 import { Skills } from "./sections/skills/Skills";
 
 
+
 //Css
 import './App.css'
 

@@ -1,5 +1,7 @@
+//React Libraries
 import React from 'react'
 import { useEffect, useRef } from 'react' /* useRef works like querySelector*/
+
 
 //Data
 import headerData from './headerData'
@@ -30,7 +32,7 @@ function Header() {
   },[])
 
   return (
-    <header  className=" header">
+    <header id="header" className=" header">
 
           <div className="headerIcons">
               {

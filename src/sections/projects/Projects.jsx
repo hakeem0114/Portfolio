@@ -61,7 +61,7 @@ function Projects() {
 
 
   return (
-    <section className="projects"> 
+    <section id="projects" className="projects"> 
         <h1>Projects</h1>
 
         <ul>

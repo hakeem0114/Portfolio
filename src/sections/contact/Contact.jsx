@@ -35,7 +35,7 @@ function Contact() {
 
     
   return (
-    <section ref={form} onSubmit={sendEmail} className="contact"> 
+    <section ref={form} onSubmit={sendEmail} className="contact"   id="contact"> 
         <h1>Contact Me</h1>
 
         <form >
