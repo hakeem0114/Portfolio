@@ -31,6 +31,8 @@ function Header() {
     
   },[])
 
+  let cont = "#contact";
+
   return (
     <header id="header" className=" header">
 
@@ -38,9 +40,18 @@ function Header() {
               {
                       headerData.map((item)=>
                           <li key={item.id} >
-                            
-                            <a target={"_blank"} href={item.link}> {item.icon} </a>
 
+                            {/* Redirect to contact me if email is pressed */}
+
+                            {    
+                                item.link == "#contact" && <a href={item.link}> {item.icon} </a>                         
+                            }
+
+                            {    
+                                item.link != "#contact" && <a target={"_blank"} href={item.link}> {item.icon} </a>                         
+                            }
+                            {/* <a target={"_blank"} href={item.link}> {item.icon} </a>
+                     */}
                           </li>
                       )
               }

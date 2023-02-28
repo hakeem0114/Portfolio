@@ -9,7 +9,7 @@
     height: 350px;
     border-radius: 20px;
     border: .25px solid rgb(245, 245, 245);
-    margin: 10px 20px;
+    margin: 15px 20px;
 
     transition: all .5 ease;
     cursor: pointer;
@@ -72,15 +72,16 @@
 
 .cardButtons > ul{
     display: flex;
-    
-    gap: 1rem;
+    justify-content: center;
+    gap: .5rem;
 }
 
 .cardButtons > ul > li{
     
+
    color: #ffff;
-   font-size: 15px;
-   font-weight: bold;
+   font-size: 16px;
+   font-weight: bolder;
    box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.1);
     /* box-shadow: 0px -23px 25px 0px rgba(0, 0, 0, 0.17) inset, 0px -36px 30px 0px rgba(0, 0, 0, 0.15) inset, 0px -79px 40px 0px rgba(0, 0, 0, 0.1) inset, 0px 2px 1px rgba(0, 0, 0, 0.06), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09);
  }  */
@@ -90,6 +91,7 @@
     transform: scale(1.05);
     transition: 0.2s ease;
 }
+
 
 .cardDemos{
     background-color: #bdb4c0;

@@ -6,6 +6,8 @@
 
     gap: 3rem;
     box-shadow: 9px 9px 30px rgba(170, 128, 175, 0.3);
+
+    transition: all 525ms ease;
 }
 
 .about2{

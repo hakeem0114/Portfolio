@@ -17,7 +17,7 @@ const headerData = [
     },
     {
         id:3,
-        link: "#Contact Me",
+        link: "#contact",
         icon: <AiOutlineMail/>
     },
 ]

@@ -30,8 +30,11 @@ function Card(props) {
                  <li>{props.item.js && <p className= "cardButton">JS</p> } </li>
                  <li>{props.item.html && <p className= "cardButton">HTML</p> } </li>
                  <li>{props.item.css && <p className= "cardButton">CSS</p> } </li>
-                <li>{props.item.react && <p className= "cardButton">REACT</p> }</li>
-                
+                 <li>{props.item.react && <p className= "cardButton">React</p> }</li>
+                <li>{props.item.arduino && <p className= "cardButton">Arduino</p> }</li>
+                <li>{props.item.matlab && <p className= "cardButton">MATLAB</p> }</li>
+                <li>{props.item.cad && <p className= "cardButton">CAD</p> }</li>   
+                <li>{props.item.vhdl && <p className= "cardButton">VHDL</p> }</li>                 
                 
               </ul>
           

@@ -10,7 +10,6 @@ import './Projects.css'
 
 //Card Data
 import { 
-          allData, 
           webData,
           mechData
       } from "./cardData";
