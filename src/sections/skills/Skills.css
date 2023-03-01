@@ -101,6 +101,25 @@
 
 /***Mobile: iPhone**/
 @media screen and (max-width: 600px ){
+    .skillsSection{
+        margin: 0rem;
+        padding: 0rem;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .lang > h2{
+          margin-left: 3.5rem;
+          margin-top: 2rem;
+    }
+    .lang2>li > img , .tech2>li> img{
+        width: 4rem;
+        height: 4rem;
+    }
+    
+    .lang2 > li:hover, .tech2 > li:hover{
+        transform: scale(1.05);
+    }
 
 }
 
