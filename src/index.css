@@ -175,10 +175,9 @@ button:hover {
 
 } */
 
-/*********************SMARTPHONES**********************/
+/*********************SMALLER SMARTPHONES**********************/
 
 @media screen and (max-width: 480px) {
-  /*Double after completing site*/
 
   h1{
     font-size: 2.2rem;

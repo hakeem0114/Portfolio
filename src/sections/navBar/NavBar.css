@@ -43,5 +43,20 @@ nav{
 
 /*Hide Desktop Nav for mobile & large smartphones*/
 @media screen and (max-width: 1024px ){
- 
+    .navMenu > li > a{
+        color: #F5F5F5;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    .navMenu > li{
+        margin: 0 3rem;
+    
+    }
+    
 }
+/***Mobile: iPhone**/
+@media screen and (max-width: 600px ){
+
+}
+

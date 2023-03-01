@@ -31,7 +31,7 @@ function Header() {
     
   },[])
 
-  let cont = "#contact";
+  
 
   return (
     <header id="header" className=" header">
