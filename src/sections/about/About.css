@@ -46,7 +46,7 @@
     }
 
     .about > h1{
-        font-size: 3rem;       
+        font-size: 30px;       
     }
 
 
@@ -72,3 +72,26 @@
     }
 }
 
+/*Smaller Devices*/
+@media screen and (max-width: 360px ){
+        .about{
+            margin:0;
+            height: 70vh;
+            gap: 1rem;
+        }
+    
+        .about > h1{
+            font-size: 15px;       
+        }
+        .about2{
+            gap: 1.5rem;
+        }
+        .about2 > p{
+            font-size: 14px;
+        }
+        .about2 > button{
+            padding:.7rem;
+        }
+    
+    
+}

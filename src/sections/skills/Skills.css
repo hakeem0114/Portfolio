@@ -88,7 +88,7 @@
         margin-right: 1rem;
     }
     .skillsSection{
-        margin-right: 5rem;
+        margin-right: 3rem;
         gap: 1rem;
     }
     .tech2,.lang2{
@@ -113,8 +113,8 @@
           margin-top: 2rem;
     }
     .lang2>li > img , .tech2>li> img{
-        width: 4rem;
-        height: 4rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
     .lang2 > li:hover, .tech2 > li:hover{
@@ -123,3 +123,21 @@
 
 }
 
+/**Smaller devices**/
+@media screen and (max-width: 480px ){
+    .lang2, .tech2{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr);
+
+
+    }
+    .lang2>li > , .tech2>li{
+        margin: 0;
+        padding: 0;
+    }
+    .lang2>li > img , .tech2>li> img{
+        width: 3.5rem;
+        height: 3rem;
+    }
+
+}

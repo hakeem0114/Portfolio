@@ -14,15 +14,6 @@
     align-items: center;
 }
 
-
-/* .contact > h2, .contact > h2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;  
-
-} */
-
 .contact > form{
     width: 70%;
     height: 70%;
@@ -71,4 +62,13 @@
 
 .contact > span{
     color: red;
+}
+
+
+/***Smaller phones**/
+@media screen and (max-width: 400px ){
+    .contact > form > input, .contact > form > textarea{
+        width: max(95%);
+    }
+
 }

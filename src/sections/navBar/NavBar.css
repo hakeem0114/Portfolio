@@ -43,6 +43,7 @@ nav{
 
 /*Hide Desktop Nav for mobile & large smartphones*/
 @media screen and (max-width: 1024px ){
+
     .navMenu > li > a{
         color: #F5F5F5;
         font-size: 18px;
@@ -57,15 +58,28 @@ nav{
 }
 /***Mobile: iPhone**/
 @media screen and (max-width: 600px ){
+    nav{
+        width: 90.5%;
+    }
     .navMenu > li > a{
         color: #F5F5F5;
         font-size: 15px;
         font-weight: bolder;
     }
-    
+    .navMenu > ul{
+        margin: 0 .5rem;
+    }
     .navMenu > li{
-        margin: 0 .7rem;
+        margin: 0 .5rem;
+        gap: .5rem;
     
     }
 }
 
+/***Smaller devices**/
+@media screen and (max-width: 480px ){
+    nav{
+        width: 100%;
+    }
+
+}
