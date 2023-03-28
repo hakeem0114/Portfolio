@@ -9,7 +9,8 @@ const webData = [
         title: "Weather App",
         // description: "Project to gain experience using Fetch API. Uses Open Weather API for live updates",
         // image: "https://drive.google.com/uc?export=view&id=INSERT_HERE_YOUR_GOOGLE_DRIVE_IMAGE_ID",
-        image: "https://drive.google.com/uc?export=view&id=1rTqMbITJmuei6F1oweQs-DjRLUsYPO3k",
+        //drive.google.com/file/d//view?usp=share_link
+        image: "https://drive.google.com/uc?export=view&id=1JRs2OgFXcVj_r9ksJtnpksdO_4ShwzY1",
         github: "https://github.com/hakeem0114/Weather-App",
         demo:"https://hakeem0114.github.io/Weather-App/",
         inProgress:"0",
