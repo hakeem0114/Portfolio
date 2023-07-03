@@ -10,6 +10,7 @@ import './Projects.css'
 
 //Card Data
 import { 
+          mainData,
           webData,
           mechData
       } from "./cardData";
@@ -24,7 +25,7 @@ function Projects() {
     // To use the option.type string to filter out the projects,
   // the useState hook is needed to keep track
 
-  const [selected, setSelected] = useState("web");  
+  const [selected, setSelected] = useState("Featured");  
   const [cardData, setCardData] = useState([]);
 
 
@@ -32,8 +33,8 @@ function Projects() {
 
     // Switch statement has a better O(n) that if else
       switch (selected) {
-        case "all":
-          setCardData(allData)
+        case "Featured":
+          setCardData(mainData)
           break;
       
           case "web":

@@ -2,6 +2,51 @@
 import {AiFillGithub} from "react-icons/ai";
 import { MdOutlineVideoLabel } from "react-icons/md";
 
+const mainData=[
+    {
+        id:1,
+        title: "Arcadia",
+        image: "https://github.com/hakeem0114/Arcadia/raw/main/src/assets/readmeAssets/home.png",
+        github: "https://github.com/hakeem0114/Arcadia",
+        demo:"https://hakeem0114.github.io/Arcadia/",
+        inProgress:"0",
+        react: <AiFillGithub/>,
+        tailwind: <AiFillGithub/>,
+        node:  <AiFillGithub/>,
+        firebase: <AiFillGithub/>,
+        type: "Featured",
+        type: "web",
+        gitIcon: "https://img.icons8.com/ios-filled/256/github.png",
+        demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
+    },
+    {
+        id:2,
+        title: "My Oracle",
+        image: "https://github.com/hakeem0114/MyOracle/raw/main/src/assets/MyOracle.png",
+        github: "https://github.com/hakeem0114/MyOracle",
+        demo:"https://hakeem0114.github.io/MyOracle/",
+        inProgress:"0",
+        react: <AiFillGithub/>,
+        tailwind: <AiFillGithub/>,
+        type: "Featured",
+        gitIcon: "https://img.icons8.com/ios-filled/256/github.png",
+        demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
+    },
+    {
+        id:3,
+        title: "MySymposium",
+        image: "https://github.com/hakeem0114/MySymposium/raw/main/client/public/home.png",
+        github: "https://github.com/hakeem0114/MySymposium",
+        demo:"https://hakeem0114.github.io/MySymposium/",
+        inProgress:"0",
+        react: <AiFillGithub/>,
+        mui: <AiFillGithub/>,
+        mern:  <AiFillGithub/>,
+        type: "Featured",
+        gitIcon: "https://img.icons8.com/ios-filled/256/github.png",
+        demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
+    },
+]
 
 const webData = [
     {
@@ -229,7 +274,7 @@ const mechData = [
 
 
 export{
-
+    mainData,
     webData,
     mechData,
 }

@@ -50,7 +50,7 @@ function Skills() {
                      <ul>
                      {
                       techData.map((tech)=>
-                      <div className="tech2">
+                      <div className="tech2" key={tech.id} >
                         <li key={tech.id}> <img src={tech.git} alt="git" /></li>
                         <li><img src={tech.cli} alt="cli" /></li>
                         <li><img src={tech.arduino} alt="ard" /></li>

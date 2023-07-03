@@ -34,8 +34,12 @@ function Card(props) {
                 <li>{props.item.arduino && <p className= "cardButton">Arduino</p> }</li>
                 <li>{props.item.matlab && <p className= "cardButton">MATLAB</p> }</li>
                 <li>{props.item.cad && <p className= "cardButton">CAD</p> }</li>   
-                <li>{props.item.vhdl && <p className= "cardButton">VHDL</p> }</li>                 
-                
+                <li>{props.item.vhdl && <p className= "cardButton">VHDL</p> }</li>  
+                <li>{props.item.node && <p className= "cardButton">Node</p> }</li>   
+                <li>{props.item.tailwind && <p className= "cardButton">Tailwind</p> }</li> 
+                <li>{props.item.firebase && <p className= "cardButton">Firebase</p> }</li>              
+                <li>{props.item.mui && <p className= "cardButton">Material UI</p> }</li> 
+                <li>{props.item.mern && <p className= "cardButton">MERN</p> }</li> 
               </ul>
           
           </div> 

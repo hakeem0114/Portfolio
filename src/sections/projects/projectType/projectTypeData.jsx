@@ -1,11 +1,11 @@
 
 const projectTypeData = [
-    // {
-    //     id:1,
-    //     title: "Featured",
-    //     type: "all",
+    {
+        id:1,
+        title: "Featured",
+        type: "Featured",
 
-    // },
+    },
     {
         id:2,
         title: "Web Development",
