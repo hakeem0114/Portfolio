@@ -60,7 +60,7 @@ function Header() {
           <div className="headerRight">
               <h2  ref={myName} ></h2>
               <p>Hello there! I am a software engineer. <br/> My goal is to learn, understand, create & lead projects in my career.</p>
-              
+                  
               <div className="headerLinks">
                   <button ><a  href="#contact">To Reach Me</a></button>  
                   <button><a  href="#projects">My Projects</a></button>

@@ -39,59 +39,32 @@
     background-color: rgb(176, 95, 184);
 }
 
-/***Tables & Apple Pro**/
-@media screen and (max-width: 1024px ){
-    .about{
-        margin-top: -16rem;
-    }
 
-    .about > h1{
-        font-size: 30px;       
-    }
-
-
+/*LARGE SCREENS*/
+@media (min-width:640px)  {
+     
 }
 
-/***Mobile: iPhone**/
-@media screen and (max-width: 600px ){
-    .about{
-        margin-top: -5rem;
-        height: 100vh;
-    }
-
-    .about > h1{
-        font-size: 1.5rem; 
-        margin-top: 3rem;      
-    }
-    .about2{
+/*MEDIUM SCREENS*/
+@media (min-width:768px)  {
+     .about{
         display: flex;
         flex-direction: column;
-    }
-    .about2 > button{
-        margin-bottom: 5rem;
-    }
+     }
+     .about{
+        display: flex;
+        flex-direction: column;
+     }
 }
 
-/*Smaller Devices*/
-@media screen and (max-width: 360px ){
-        .about{
-            margin:0;
-            height: 70vh;
-            gap: 1rem;
-        }
-    
-        .about > h1{
-            font-size: 15px;       
-        }
-        .about2{
-            gap: 1.5rem;
-        }
-        .about2 > p{
-            font-size: 14px;
-        }
-        .about2 > button{
-            padding:.7rem;
-        }
-    
-    
+/*SMALL SCREENS*/
+@media (min-width:10240px)  {
+    .about{
+        display: flex;
+        flex-direction: column;
+     }
+     .about{
+        display: flex;
+        flex-direction: column;
+     }
 }

@@ -1,7 +1,9 @@
 
 nav{
     height: 4.5rem;
-    width: 100%;
+    width:100%;
+
+    overflow: hidden;
 
     /*Box*/
     display: flex;
@@ -41,45 +43,29 @@ nav{
          border-bottom: 2px solid rgb(42, 24, 59);
 }
 
-/*Hide Desktop Nav for mobile & large smartphones*/
-@media screen and (max-width: 1024px ){
 
-    .navMenu > li > a{
-        color: #F5F5F5;
-        font-size: 18px;
-        font-weight: bolder;
-    }
-    
-    .navMenu > li{
-        margin: 0 3rem;
-    
-    }
-    
-}
-/***Mobile: iPhone**/
-@media screen and (max-width: 600px ){
-    nav{
-        width: 90.5%;
-    }
-    .navMenu > li > a{
-        color: #F5F5F5;
-        font-size: 15px;
-        font-weight: bolder;
-    }
-    .navMenu > ul{
-        margin: 0 .5rem;
-    }
-    .navMenu > li{
-        margin: 0 .5rem;
-        gap: .5rem;
-    
-    }
+/*LARGE SCREENS*/
+@media (min-width:640px)  {
+     
 }
 
-/***Smaller devices**/
-@media screen and (max-width: 480px ){
+/*MEDIUM SCREENS*/
+@media (max-width:768px)  {
     nav{
-        width: 100%;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+        gap: 0;
     }
 
+}
+
+/*SMALL SCREENS*/
+@media (max-width:481px)  {
+    nav{
+        display: none;
+    } 
 }

@@ -2,16 +2,16 @@
     transition: all 525ms ease;
     
     height: 100vh;
-
+  
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-size: 100%; */
 
     color: var(--color-white);
 }
@@ -45,6 +45,13 @@
 
 
 .headerRight{
+    text-align: center;
+
+    /* border: 5px solid rgb(211, 205, 205); */
+
+    width: clamp(40%, 80%, 90%);
+    height: clamp(40%, 60%, 80%);
+
     margin-right: 6rem;
     display: flex;
     flex-direction: column;
@@ -54,7 +61,7 @@
     gap: 1rem;
 }
 .headerRight> p{
-    color: #cccaca;
+    color: #f5f7ef;
     font-size: 1.4rem;
     text-align: center;
 }
@@ -79,95 +86,68 @@
 
 }
 
-/***Tables & Apple Pro**/
-@media screen and (max-width: 1024px ){
-    .header{
-        height: 100vh;
-   
-        margin-top: 0;
-    }
 
-    .headerRight> p{
-        font-size: 1.2rem;
-        margin: 0;
-        
-    }
-    
-    
-    .headerRight> h2{
-        font-size: 3.5rem;
-        margin-top: 4rem;
-    }
-    .headerLinks{
-        gap: 2rem;
-        margin-bottom: 8rem;
-    }
 
+/*LARGE SCREENS*/
+@media (max-width:10240px)  {
     .headerIcons{
-        margin-left: 3rem;
-        margin-bottom: 7rem;
-    }
-    .headerIcons > li{
-        margin: .8rem 0;
-    }
-
-}
-
-/***Mobile: iPhone**/
-@media screen and (max-width: 600px ){
-    .header{
-        height: 100%;
-        width: 100%;
-        margin: 0;
-        gap: 0;
-    }
-    .headerIcons{
-        display: none; /*Will in footer on mobile*/
-    }
+        margin-left: 5rem;
+     }
     .headerRight{
-        width: 80%; 
-        margin: 1rem 0;
-        gap: 0;
+        margin:5rem;
+        margin-right:25rem;
+    }
+    .headerRight > h2{
+        font-size:3rem;
+    }
+}
+
+
+/*MEDIUM SCREENS*/
+@media (max-width:768px)  {
+    .headerIcons{
+        margin-left: 5rem;
+     }
+    .headerRight{
+        padding: 0;
+        margin-left: -6rem;
+        margin-right: 3rem;
+        
+    }
+    .headerRight > h2{
+        font-size: 2rem;
+
+    }
+}
+
+/*SMALL SCREENS*/
+@media (max-width:481px)  {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        padding: 10rem;
+        gap: 1rem;
     }
 
-    .headerRight> p{
-        font-size: .8rem;
-        margin: 0;
+    .headerIcons{
+        flex-direction: row;
+        gap: 1rem;
+        margin: 5rem;
+        margin-bottom: -.2rem;
+     }
+
+     .headerRight{
+        text-align: center;
+        padding: 5rem;
+        margin: 5rem;
+        width: fit-content;
+    }
+    .headerRight >h2{
+        font-size: 40px;
         
     }
     
-    
-    .headerRight> h2{
-        margin-top: .5rem;
-        font-size: 1.5rem;
-        margin-top: 4rem;
-    }
-
-    .headerLinks > button{
-        margin-top: .4rem;
-        padding: .2rem .1rem;
-
-    }
-       
-}
-
-/***Smaller phones**/
-@media screen and (max-width: 360px ){
-    .header{
-        margin-bottom: -6rem;
-    }
-    .headerRight> p{
-        color: #fff;
-        font-size: 10px;
-    }
-    
-    .headerRight> h2{
-        font-size: 20px;
-    }
-    .headerLinks > button > a{
-        font-size: 10px;
-        padding: .5rem;
-    }
-
-
 }
