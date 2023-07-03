@@ -15,7 +15,6 @@ const mainData=[
         node:  <AiFillGithub/>,
         firebase: <AiFillGithub/>,
         type: "Featured",
-        type: "web",
         gitIcon: "https://img.icons8.com/ios-filled/256/github.png",
         demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
     },
