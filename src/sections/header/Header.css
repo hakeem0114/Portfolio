@@ -104,24 +104,28 @@
 
 
 /*MEDIUM SCREENS*/
-@media (max-width:768px)  {
-    .headerIcons{
-        margin-left: 5rem;
-     }
-    .headerRight{
-        padding: 0;
-        margin-left: -6rem;
-        margin-right: 3rem;
-        
-    }
-    .headerRight > h2{
-        font-size: 2rem;
+/* @media (max-width:730px)  {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
+
+        padding: 10rem;
+        gap: 1rem;
     }
-}
+
+
+    .headerIcons{
+        flex-direction: row;
+        gap: 1rem;
+        margin: 5rem;
+        margin-bottom: -.2rem;
+     }
+} */
 
 /*SMALL SCREENS*/
-@media (max-width:481px)  {
+@media (max-width:768px)  {
     .header{
         display: flex;
         flex-direction: column;

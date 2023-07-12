@@ -22,7 +22,8 @@ nav{
 .navMenu{
     display: flex;
     align-items: center;
-    justify-content: center;
+
+
     
 }
 
@@ -33,7 +34,7 @@ nav{
 }
 
 .navMenu > li{
-    margin: 0 5rem;
+        margin: 1rem;
 
 }
 
@@ -46,26 +47,25 @@ nav{
 
 /*LARGE SCREENS*/
 @media (min-width:640px)  {
-     
+     .navMenu{
+        display: flex;
+        justify-content: space-evenly;
+
+        gap: 3rem;
+     }
 }
 
 /*MEDIUM SCREENS*/
 @media (max-width:768px)  {
-    nav{
-        font-size: 10px;
-        margin: 0;
-        padding: 0;
-
-        display: flex;
-        justify-content: center;
-        gap: 0;
-    }
 
 }
 
 /*SMALL SCREENS*/
 @media (max-width:481px)  {
-    nav{
-        display: none;
+    nav > ul > li > a{
+        font-size: 2px;
     } 
+    .navMenu{
+        margin: .1rem;
+    }
 }
