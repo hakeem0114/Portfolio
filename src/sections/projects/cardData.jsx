@@ -5,6 +5,21 @@ import { MdOutlineVideoLabel } from "react-icons/md";
 const mainData=[
     {
         id:1,
+        title: "CUF",
+        image: "https://github.com/hakeem0114/CUF/raw/main/src/assets/readmeAssets/homeReadme.png",
+        github: "https://github.com/hakeem0114/CUF",
+        demo:"https://hakeem0114.github.io/CUF/",
+        inProgress:"0",
+        react: <AiFillGithub/>,
+        tailwind: <AiFillGithub/>,
+        node:  <AiFillGithub/>,
+        cheerio: <AiFillGithub/>,
+        type: "Featured",
+        gitIcon: "https://img.icons8.com/ios-filled/256/github.png",
+        demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
+    },
+    {
+        id:2,
         title: "Arcadia",
         image: "https://github.com/hakeem0114/Arcadia/raw/main/src/assets/readmeAssets/home.png",
         github: "https://github.com/hakeem0114/Arcadia",
@@ -19,7 +34,7 @@ const mainData=[
         demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
     },
     {
-        id:2,
+        id:3,
         title: "My Oracle",
         image: "https://github.com/hakeem0114/MyOracle/raw/main/src/assets/MyOracle.png",
         github: "https://github.com/hakeem0114/MyOracle",
@@ -32,7 +47,7 @@ const mainData=[
         demoIcon: "https://img.icons8.com/ios-filled/256/system-task.png",
     },
     {
-        id:3,
+        id:4,
         title: "MySymposium",
         image: "https://github.com/hakeem0114/MySymposium/raw/main/client/public/home.png",
         github: "https://github.com/hakeem0114/MySymposium",

@@ -40,6 +40,7 @@ function Card(props) {
                 <li>{props.item.firebase && <p className= "cardButton">Firebase</p> }</li>              
                 <li>{props.item.mui && <p className= "cardButton">Material UI</p> }</li> 
                 <li>{props.item.mern && <p className= "cardButton">MERN</p> }</li> 
+                <li>{props.item.cheerio && <p className= "cardButton">cheerio</p> }</li> 
               </ul>
           
           </div> 
