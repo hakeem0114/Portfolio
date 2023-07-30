@@ -49,7 +49,7 @@ const mainData=[
     {
         id:4,
         title: "MySymposium",
-        image: "https://github.com/hakeem0114/MySymposium/raw/main/client/public/home.png",
+        image: "https://github.com/hakeem0114/MySymposium/raw/main/client/public/assets/home.png",
         github: "https://github.com/hakeem0114/MySymposium",
         demo:"https://hakeem0114.github.io/MySymposium/",
         inProgress:"0",
